@@ -1,0 +1,95 @@
+/*  header styles */
+
+header {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+header>img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*  Content styles */
+
+section {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    min-height: 65px;
+    padding: 7px 0;
+}
+section>div {
+    width: 27%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+[name=srch] {
+    width: 70%;
+    margin: 1px 0 3px 0;
+}
+[name=btn1] {
+    width: 28%;
+}
+[name=btn2] {
+    width: 35%;
+}
+/*  footer styles */
+
+footer {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+footer>nav {
+    min-height: 72px;
+    padding: 2px 0;
+}
+.nav1 {
+    float: left;
+    width: 37%;
+    background-color: rgb(126, 229, 218);
+    display: table;
+    margin-right: 2px;
+}
+.nav1>ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+.nav2 {
+    float: left;
+    width: 25.6%;
+    background-color: rgb(112, 204, 194);
+    display: block;
+    text-align: center;
+    margin: 0 2px 0 0;
+}
+.nav2>ul>li>a {
+    font-size: 12px;
+}
+.nav3 {
+    float: left;
+    width: 37%;
+    background-color: rgb(98, 179, 170);
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+nav>ul {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    padding:0;
+    margin: 0;
+}
+.clear {
+    clear: both;
+}
+footer>p {
+    margin: 10px 0px;
+    font-size: 13px;
+}
